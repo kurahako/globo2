@@ -1,29 +1,24 @@
 <ons-page>
-
-<ons-toolbar>
-    <div class="center">新規登録</div>
     
-    //　facebook Googleでログイン
-    
-    <section id="account_block">
-        <div class="s_font">または</div>
+    <ons-toolbar>
+        <div class="center">新規登録</div>
+        
         <div><a ng-click="navi.pushPage('navi.html')"><img src="images/login/fb_button.png" alt="facebookでログインする" /></a></div>
         <div><a ng-click="navi.pushPage('navi.html')"><img src="images/login/google_login.png" alt="Googleでログインする" /></a></div>
+        <div class="s_font">または</div>
         
-    </section>
-    
-    // テキストボックス設置のところ
-      <input type="text" name="mail" size="8" value="" onFocus="unDspInputSetsumei(this,'メールアドレス');" onBlur="DspInputSetsumei(this,'メールアドレス');" />
-    
-   　 <input type="text" name="name1" size="8" value="" onFocus="unDspInputSetsumei(this,'性');" onBlur="DspInputSetsumei(this,'性');" />
-     
-      <input type="text" name="name2" size="8" value="" onFocus="unDspInputSetsumei(this,'名');" onBlur="DspInputSetsumei(this,'名');" />
-      
-      <input type="text" name="pasward" size="8" value="" onFocus="unDspInputSetsumei(this,'パスワード');" onBlur="DspInputSetsumei(this,'パスワード');" />
-
-      
-      //　登録ボタンタップ後のリンク先をファイル作成後に設定する
-      <div class="margin20"><ons-button ng-click="navi.pushPage('navi.html')">登録</ons-button></div>
-      
-</ons-toolbar>
+        <div style="text-align: center; margin-top: 30px;">
+            <div><ons-input id="mail" modifier="underbar" placeholder="メールアドレス" float></ons-input></div>
+            <div><ons-input id="name1" modifier="underbar" placeholder="性" float></ons-input></div>
+            <div><ons-input id="name2" modifier="underbar" placeholder="名" float></ons-input></div>
+            <div><ons-input id="password" modifier="underbar" type="password" placeholder="新しいパスワード"></ons-input></div>
+        </div>
+        
+        　<p>登録することをもって私は、くらハコの利用規約、差別禁止ポリシー、支払い利用規約、個人情報保護ポリシー、ゲスト返金ポリシー、ホスト保証規約に同意します</p>
+        
+        
+        //　登録ボタンタップ後のリンク先をファイル作成後に設定する
+        <div class="margin20"><ons-button ng-click="navi.pushPage('navi.html')">登録</ons-button></div>
+        
+    </ons-toolbar>
 </ons-page>
