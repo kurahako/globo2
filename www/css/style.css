@@ -1,0 +1,130 @@
+/**/
+
+/* account */
+form {margin:0 0 1em 0;}
+input {margin:1em 0 0 0; width:20em;}
+
+
+#account_block {width:60%; margin:30px auto 0 auto;}
+#account_block img {width:166px; margin:10px 0 0 0;}
+
+/* home */
+.content_box {width:100%; margin:0 auto 40px auto; padding:0 0 30px 0; border-bottom: 1px solid #CCC;}
+.content_box:last-child {border-bottom:none;}
+.photo_box {width:100%; margin:15px auto 0 auto;}
+.content_box p {margin:0; font-size:92%; line-height: 1;}
+
+
+/* 共通 */
+#wrapper {width:95%; margin:0 auto;}
+h1 {font-size:140%; text-align:center; margin:20px 0 0 0;}
+h2 {font-size:100%; text-align:left; margin:20px 0 0 0;}
+.s_font {font-size:87%; color:#666;}
+img {width:100%;}
+p {margin:0;}
+
+.header {background-color:#99FF99;}
+
+.navigation-bar {background-color:#4A99F2;}
+
+.margin10 {margin:10px 0 0 0;}
+.margin20 {margin:10px 0 0 0;}
+.margin30 {margin:10px 0 0 0;}
+.margin40 {margin:10px 0 0 0;}
+
+.photo {width:100%; margin:0 auto;}
+
+a {text-decoration: none; color:#666;}
+a:link {text-decoration: none; color:#666;}
+a:visited {text-decoration: none; color:#666;}
+a:hover {text-decoration: none; color:#333;}
+a:active {text-decoration: none; color:#333;}
+
+
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+.button_block {margin:20px auto 0 auto; text-align: center;}
+
+
+/** インプット **/
+.search-input {width:90%; margin:6px auto 0 auto;}
+input[type=search]{
+font-family: FontAwesome /*FontAwesomeをフォント指定*/;
+padding: 0px 0 0 28px;
+width:98%;
+margin:6px auto;
+}
+
+dd.date input {width:10em; margin:0 0 0 0;}
+
+textarea.textarea {height:12em;}
+
+/** タブ **/
+.tab-bar__button {line-height:1 !important;}
+ons-tab div {color:#999; font-size:10px;}
+
+/** home **/
+
+h3.title {margin:20px 0 0 0;}
+
+
+section.home section.data_block {margin:0 0 30px 0; padding:0 0 30px 0;}
+
+.data_block .money {font-weight:bold;}
+.data_block .name {font-weight:bold;}
+.data_block .star {color:#ff9200; font-size:11px;}
+.data_block .review {font-weight:bold; font-size:12px;}
+
+
+/** 物件リスト **/
+section.list section.data_block  {margin:30px 0 0 0; padding:0 0 30px 0; border-bottom:1px solid #666;}
+section.list section.data_block:first-child  {margin:30px 0 0 0; padding:0 0 30px 0; border-bottom:1px solid #666;}
+section.list div.photo  {float:left; width:35%;}
+section.list div.data  {float:right; width:63%; font-size:87%;}
+section.list div.data h5  {margin:0 0 0 0;}
+section.list div.data span.non{}
+
+
+/** 物件詳細 **/
+section.bukken div.photo_block {margin:30px 0 0 0;}
+section.bukken div.photo_block img {width:100%;}
+section.bukken div.photo_left {float:left; width:70%;}
+section.bukken div.photo_right {float:right; width:29%}
+section.bukken div.data h5  {margin:0 0 0 0;}
+section.bukken div.map {margin:40px 0 0 0;}
+
+
+/** プロフィール **/
+/* h6 { text-indent: 1em; line-height: 1.2em;　margin-bottom: 0.5em;} */
+section.profile h6 { text-indent: 1em; line-height: 1em;　margin: 0em;} 
+section.profile p { text-indent: 1em; padding:1em line-height: 1.2em;　margin-top: 0.5em;  border-bottom: 1px solid #444; width:90%;}
+
+/** お友達紹介 **/
+div.photo { text-align: center; }
+div.tomodachi { text-align:center; }
+
+
+/** 申し込み **/
+section.moushikomi section.data_block {margin:30px 0 0 0;}
+section.moushikomi dl {margin:0 0 35px 0;}
+section.moushikomi dl dt {margin:0 0 5px 0; padding:5px 8px; background-color:#1284ff; color:#fff; border-radius: 3px;}
+section.moushikomi dl dt div.bar {border-left:3px solid #FFF; display: inline; padding: 0 0;}
+
+section.moushikomi dl dd {margin: 0px}
+
+
+
+/** 申し込み確認 **/
+section.moushikomikakunin section.data_block {margin:0 0 0 0;}
+section.moushikomikakunin dl {display: block;}
+section.moushikomikakunin dl dt {float:left; display: block; border:1px solid #333; border-collapse: collapse; background-color:#FDF8CF; color:#333; width:30%; padding:10px 10px;}
+section.moushikomikakunin dl dd {float:left; display: block; border:1px solid #333; border-collapse: collapse; background-color:#FFF; width:59%; margin:0 0 0 0; padding:10px 10px;}
+
+
+
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/onsen/2.1.0/css/onsenui.css' />  
+<link rel='stylesheet' href='css/onsen-css-components.min.css' />
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-lightness/jquery-ui.css" >
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+
+<script src="js/loader.js"></script>
+<script src="https://cdn.rawgit.com/OnsenUI/OnsenUI/1.3.11/build/js/angular/angular.min.js"></script>
+<script src="js/onsenui.js"></script>
+<script src="js/angular-onsenui.min.js"></script>
+<script>ons.bootstrap();</script>
+<script>
+            ons.ready(function() {
+                navi.on('postpush', function(e) {
+                  var dates = jQuery( '#datepicker1, #datepicker2' ) . datepicker( {
+            showAnim: 'drop',
+            changeMonth: true,
+            numberOfMonths: 1,
+            showCurrentAtPos: 1,
+            dayNames: ['日曜日','月曜日','火曜日','水曜日','木曜日','金曜日','土曜日'],
+            dateFormat:"yy年mm月dd日",
+            onSelect: function( selectedDate ) {
+                var option = this . id == 'datepicker1' ? 'minDate' : 'maxDate',
+                    instance = $( this ) . data( 'datepicker' ),
+                    date = $ . datepicker . parseDate(
+                        instance . settings . dateFormat ||
+                        $ . datepicker . _defaults . dateFormat,
+                        selectedDate, instance . settings );
+                dates . not( this ) . datepicker( 'option', option, date );
+            }
+        } );
+                  $("#datepicker1").datepicker();
+                  $("#datepicker2").datepicker();
+                });
+            });
+</script>
+<script>
+function DspInputSetsumei(control,moji) {
+
+if(control.value == '') {
+control.style.color = '#AAAAAA ';
+control.value = moji;
+}
+
+return true;
+}
+
+function unDspInputSetsumei(control,moji) {
+
+if(control.value == moji) {
+control.style.color = '#000000 ';
+control.value = '';
+
+}
+
+return true;
+}
+</script>
+</head>
+<body>
+<ons-navigator title="Navigator" var="navi" page="login.html"></ons-navigator>
+</body>
+</html>

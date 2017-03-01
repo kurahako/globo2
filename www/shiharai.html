@@ -1,0 +1,90 @@
+  <ons-page>
+  <ons-toolbar>
+        <div class="navigation-bar__left"><ons-back-button>Back</ons-back-button></div>
+    </ons-toolbar>
+    <section id="wrapper" class="shiharai">
+    <section>
+	    <div class="data">
+	    <div>利用期間</div>
+	    <div class="date">2017年2月2日〜2017年2月28日</div>
+	    </div>
+	    <div class="data">
+	    <div>キャンセルについて</div>
+	    <div>規約</div>
+	    <div>プレイスルール</div>
+	    <div>ポリシーを読む</div>
+	    <div>利用日数</div>
+	    <div class="date">1日</div>
+	    </div>
+	    <div>
+	    <div>小計</div>
+	    <div>1,000円</div>
+	    <div>クーポンコード</div>
+	    <div>1,000円</div>
+	    </div>
+    </section>
+    <h3 class="title">お支払画面</h3>
+    <section class="data_block">
+    
+    <div class="data">
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>物件名</dt>
+    	<dd><ons-input placeholder="物件名" modifier="underbar" float></dd>
+    </dl>
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>物件タイプ</dt>
+    	<dd><ons-input placeholder="物件タイプ" modifier="underbar" float></dd>
+    </dl>
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>レンタル日数</dt>
+    	<dd>
+    	<select name="days" id="days">
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+    		<option value="4">4</option>
+    		<option value="5">5</option>
+    		<option value="6">6</option>
+    		<option value="7">7</option>
+    		<option value="8">8</option>
+    		<option value="9">9</option>
+    		<option value="10">10</option>
+    		<option value="11">11</option>
+    		<option value="12">12</option>
+    	</select>
+    	<select name="days_type" id="days_type">
+    		<option value="日">日</option>
+    		<option value="週間">週間</option>
+    		<option value="ヶ月">ヶ月</option>
+    		<option value="年">年</option>
+    	</select>
+      	</dd>
+    </dl>
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>料金</dt>
+    	<dd>
+    	<select name="days" id="days">
+    		<option value="1000円">1000円</option>
+    		<option value="2000円">2000円</option>
+    		<option value="3000円">3000円</option>
+    		<option value="4000円">4000円</option>
+    		<option value="10000円">5000円</option>
+    	</select>
+    	</dd>
+    </dl>
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>レンタル開始日</dt>
+    	<dd class="date">
+<input type="text" id="datepicker1">〜<input type="text" id="datepicker2"></dd>
+    </dl>
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>その他連絡事項など</dt>
+    	<dd><textarea class="textarea" id="my-textarea"></textarea></dd>
+    </dl>
+    
+    </div>
+    <div class="button_block"><ons-button ng-click="navi.pushPage('moushikomi_kakunin.html')">申し込み確認画面へ</ons-button></div>
+    </section>
+    </section>
+    
+  </ons-page>

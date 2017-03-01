@@ -1,0 +1,29 @@
+<ons-page>
+
+<ons-toolbar>
+    <div class="center">新規登録</div>
+    
+    //　facebook Googleでログイン
+    
+    <section id="account_block">
+        <div class="s_font">または</div>
+        <div><a ng-click="navi.pushPage('navi.html')"><img src="images/login/fb_button.png" alt="facebookでログインする" /></a></div>
+        <div><a ng-click="navi.pushPage('navi.html')"><img src="images/login/google_login.png" alt="Googleでログインする" /></a></div>
+        
+    </section>
+    
+    // テキストボックス設置のところ
+      <input type="text" name="mail" size="8" value="" onFocus="unDspInputSetsumei(this,'メールアドレス');" onBlur="DspInputSetsumei(this,'メールアドレス');" />
+    
+   　 <input type="text" name="name1" size="8" value="" onFocus="unDspInputSetsumei(this,'性');" onBlur="DspInputSetsumei(this,'性');" />
+     
+      <input type="text" name="name2" size="8" value="" onFocus="unDspInputSetsumei(this,'名');" onBlur="DspInputSetsumei(this,'名');" />
+      
+      <input type="text" name="pasward" size="8" value="" onFocus="unDspInputSetsumei(this,'パスワード');" onBlur="DspInputSetsumei(this,'パスワード');" />
+
+      
+      //　登録ボタンタップ後のリンク先をファイル作成後に設定する
+      <div class="margin20"><ons-button ng-click="navi.pushPage('navi.html')">登録</ons-button></div>
+      
+</ons-toolbar>
+</ons-page>

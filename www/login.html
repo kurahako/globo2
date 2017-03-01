@@ -1,0 +1,19 @@
+<ons-page>
+<h1 class="center">くらハコ</h1>
+<section id="wrapper">
+<div style="text-align: center">
+    <br />
+    <div class="s_font">新規登録はこちら</div>
+    <div style="text-align: center; margin-top: 30px;">
+    <div><ons-input id="username" modifier="underbar" placeholder="Username" float></ons-input></div>
+    <div><ons-input id="password" modifier="underbar" type="password" placeholder="Password"></ons-input></div>
+    <div class="margin20"><ons-button ng-click="navi.pushPage('navi.html')">Sign in</ons-button></div>
+  </div>
+    <section id="account_block">
+    <div class="s_font">または</div>
+    <div><a ng-click="navi.pushPage('navi.html')"><img src="images/login/fb_button.png" alt="facebookでログインする" /></a></div>
+    <div><a ng-click="navi.pushPage('navi.html')"><img src="images/login/google_login.png" alt="Googleでログインする" /></a></div>
+    </section>
+</div>
+</section>
+</ons-page>
