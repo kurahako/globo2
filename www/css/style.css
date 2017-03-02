@@ -121,10 +121,29 @@ section.moushikomi dl dd {margin: 0px}
 /** 申し込み確認 **/
 section.moushikomikakunin section.data_block {margin:0 0 0 0;}
 section.moushikomikakunin dl {display: block;}
-section.moushikomikakunin dl dt {float:left; display: block; border:1px solid #333; border-collapse: collapse; background-color:#FDF8CF; color:#333; width:30%; padding:10px 10px;}
-section.moushikomikakunin dl dd {float:left; display: block; border:1px solid #333; border-collapse: collapse; background-color:#FFF; width:59%; margin:0 0 0 0; padding:10px 10px;}
+section.moushikomikakunin dl dt {padding:5px 8px; background-color:#1284ff; color:#fff; border-radius: 3px;}
+section.moushikomikakunin dl dd {border-collapse: collapse; background-color:#FFF; margin:0 0 0 0; padding:10px 10px;}
 
 
+/** お支払 **/
+section.shiharai {margin:1em 0 0 0;}
+section.shiharai section.data_block {margin:30px 0 0 0;}
+section.shiharai div.data {margin:0 0 1em 0; padding:0 0 1em 0; border-bottom: 1px solid #333;}
+section.shiharai dl {margin:0 0 35px 0;}
+section.shiharai dl dt {margin:0 0 5px 0; padding:5px 8px; background-color:#1284ff; color:#fff; border-radius: 3px;}
+section.shiharai dl dt div.bar {border-left:3px solid #FFF; display: inline; padding: 0 0;}
 
+section.shiharai dl dd {margin: 0px}
+
+
+/** 検索 **/
+section.search {margin:1em 0 0 0;}
+section.search section.data_block {margin:30px 0 0 0;}
+section.search div.data {margin:0 0 1em 0; padding:0 0 1em 0; border-bottom: 1px solid #333;}
+section.search dl {margin:0 0 35px 0;}
+section.search dl dt {margin:0 0 5px 0; padding:5px 8px; background-color:#1284ff; color:#fff; border-radius: 3px;}
+section.search dl dt div.bar {border-left:3px solid #FFF; display: inline; padding: 0 0;}
+
+section.search dl dd {margin: 0px}
 
 
