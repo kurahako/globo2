@@ -152,3 +152,95 @@ section.search dl dd {margin: 0px}
 /** 友達招待 **/
 section.friend {margin:1em 0 0 0;}
 section.friend div.photo {width:50%; margin:0 auto;}
+
+
+/** 物件掲載 **/
+section.bukken1 div.icon {width:20px;}
+section.bukken1 {padding:1em; line-height:1.2em; margin-top:0.5em; margin:0 auto;}
+
+section.bukken2 div.icon {width:20px;}
+section.bukken2 {padding:1em; line-height:1.2em; margin-top:0.5em; margin:0; auto;}
+
+section.bukken3 {padding:1em; line-height:1.2em; margin-top:0.5em; margin:0; auto;}
+
+section.bukken3
+.button {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  line-height: normal;
+  font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 17px;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: auto;
+  text-decoration: none;
+  padding: 4px 10px;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: 0;
+  color: #fff;
+  vertical-align: middle;
+  background-color: rgba(24,103,194,0.81);
+  border: 0px solid currentColor;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.button:hover {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.button:active {
+  background-color: rgba(24,103,194,0.81);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  opacity: 0.2;
+}
+.button:focus {
+  outline: 0;
+}
+.button:disabled,
+.button[disabled] {
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+.button--light {
+  background-color: transparent;
+  color: rgba(0,0,0,0.4);
+  border: 1px solid rgba(0,0,0,0.2);
+}
+.button--light:active {
+  background-color: rgba(0,0,0,0.05);
+  color: rgba(0,0,0,0.4);
+  border: 1px solid rgba(0,0,0,0.2);
+  opacity: 1;
+}

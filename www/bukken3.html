@@ -1,0 +1,72 @@
+<ons-page>
+
+<ons-toolbar>
+<div class="navigation-bar__left"><ons-back-button>Back</ons-back-button></div>
+<div class="center">物件登録</div>
+</ons-toolbar>
+    
+<section class="bukken3">
+    
+    <div>
+        <TABLE border="0">
+            <TBODY>
+                <TR>
+                    <TH align="left">物件登録情報</TH>
+                </TR>
+                <TR>
+                    <TD>物件名 <input type="text" class="text-input" placeholder="物件の名前を入力してください"></TD>
+                    
+                </TR>
+                <TR>
+      
+                    <TD>住所 <input type="text" class="text-input" placeholder="住所を入力してください"></TD>
+                </TR>
+    <TR>
+      <TD><IFRAME src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212758.10773485954!2d133.36977457762657!3d33.57037934836147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e1f3322084dd7%3A0x2f175a433fde642a!2z6auY55-l55yM6auY55-l5biC!5e0!3m2!1sja!2sjp!4v1488215767192" width="150" height="150" frameborder="0" style="border:0" allowfullscreen scrolling="AUTO"></IFRAME></TD>
+    </TR>
+
+    <TR>
+      <TD>貸出形態
+      <button class="button button--light">貸切</button>
+　　　<button class="button button--light" disabled>共有</button>
+      </TD>
+    </TR>
+    
+      <TR>
+      <TD>貸出期間 <SELECT name="日">
+                            <OPTION value="0">0</OPTION>
+                            <OPTION value="1" selected>1</OPTION>
+                            <OPTION value="2">2</OPTION>
+                            <OPTION value="3">3</OPTION>
+                            <OPTION value="4">4</OPTION>
+                            <OPTION value="5">5</OPTION>
+                            <OPTION value="6">6</OPTION>
+                            </SELECT>日
+     
+                   <SELECT name="時間">
+                            <OPTION value="0" selected>0</OPTION>
+                            <OPTION value="1">1</OPTION>
+                            <OPTION value="2">2</OPTION>
+                            <OPTION value="3">3</OPTION>
+                            <OPTION value="4">4</OPTION>
+                            <OPTION value="5">5</OPTION>
+                            <OPTION value="6">6</OPTION>
+                            <OPTION value="7">7</OPTION>
+                             </SELECT>時間
+ 
+      </TD>
+      </TR>
+                <TR>
+                    <br><br><TD>場所画像 <INPUT type="file" name="画像"></TD>
+  
+      <TD>
+      </TD>
+      </TR>
+      <TR>
+      <TD><INPUT type="submit" name="登録" value="登録"></TD>
+     </TR>
+</TBODY>
+      </TABLE>
+      <HR>
+    </div>
+</ons-page>
