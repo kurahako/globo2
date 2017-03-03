@@ -2,5 +2,71 @@
   <ons-toolbar>
         <div class="center">検索</div>
     </ons-toolbar>
-    <div>ココに検索結果がでます</div>
+    <section id="wrapper" class="search">
+    <h3 class="title">検索画面</h3>
+    <section class="data_block">
+    
+    <div class="data">
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>場所</dt>
+    	<dd>
+    	<select name="pref" id="pref">
+    		<option value="指定なし">指定なし</option>
+    		<option value="高知市">高知市</option>
+    		<option value="南国市">南国市</option>
+    		<option value="土佐市">土佐市</option>
+    		<option value="いの町">いの町</option>
+    	</select>
+    	</dd>
+    </dl>
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>日程</dt>
+    	<dd>
+    	<select name="days" id="days">
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+    		<option value="4">4</option>
+    		<option value="5">5</option>
+    		<option value="6">6</option>
+    		<option value="7">7</option>
+    		<option value="8">8</option>
+    		<option value="9">9</option>
+    		<option value="10">10</option>
+    		<option value="11">11</option>
+    		<option value="12">12</option>
+    	</select>
+    	<select name="days_type" id="days_type">
+    		<option value="日">日</option>
+    		<option value="週間">週間</option>
+    		<option value="ヶ月">ヶ月</option>
+    		<option value="年">年</option>
+    	</select>
+    	</dd>
+    </dl>
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>料金</dt>
+    	<dd>
+    	<select name="money" id="money">
+    		<option value="0円〜4999円">0円〜4999円</option>
+    		<option value="5000円〜9999円">5000円〜9999円</option>
+    		<option value="10000円〜14999円">10000円〜14999円</option>
+    		<option value="15000円〜19999円">15000円〜19999円</option>
+    	</select>
+    	</dd>
+    </dl>
+    <dl>
+    	<dt><div class="bar">&nbsp;</div>物件タイプ</dt>
+    	<dd>
+    	<select name="money" id="money">
+    		<option value="貸し切り（専有）">貸し切り（専有）</option>
+    		<option value="個室（自宅内の個室）">個室（自宅内の個室）</option>
+    		<option value="シェア（共有）">シェア（共有）</option>
+    	</select>
+    	</dd>
+    </dl>
+    </div>
+    <div class="button_block"><ons-button ng-click="">検索する</ons-button></div>
+    </section>
+    </section>
   </ons-page>
